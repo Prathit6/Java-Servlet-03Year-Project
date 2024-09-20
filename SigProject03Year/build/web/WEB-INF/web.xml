@@ -8,6 +8,18 @@
         <servlet-name>NewServlet</servlet-name>
         <servlet-class>NewServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TestGenericServlet</servlet-name>
+        <servlet-class>TestGenericServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HTTPServlet</servlet-name>
+        <servlet-class>HTTPServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewhttpServlet1</servlet-name>
+        <servlet-class>NewhttpServlet1</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>BasicServlet</servlet-name>
         <url-pattern>/BasicServlet</url-pattern>
@@ -15,6 +27,18 @@
     <servlet-mapping>
         <servlet-name>NewServlet</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestGenericServlet</servlet-name>
+        <url-pattern>/TestGenericServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HTTPServlet</servlet-name>
+        <url-pattern>/HTTPServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewhttpServlet1</servlet-name>
+        <url-pattern>/NewhttpServlet1</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
